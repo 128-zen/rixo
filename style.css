@@ -691,6 +691,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 30px;
+  font-size: 18px;
 }
 .header__lists a {
   line-height: 1.1;
