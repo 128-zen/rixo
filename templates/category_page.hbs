@@ -1,0 +1,66 @@
+<section class="category-page">
+
+  {{!-- Top Banner Section --}}
+  <section id="main-content" class="hero">
+    <div class="lines">
+    <div></div>
+  </div>
+    <div class="container">
+      <h1 class="hero-text fade-in-up">{{settings.category_heading}}</h1>
+      {{#if settings.show_category_subtitle}}
+        <p class="p-large fade-in-up">{{settings.category_subtitle}}</p>
+      {{/if}}
+      <div class="hero-inner fade-in-up">
+        <h2 class="visibility-hidden">{{ t 'search' }}</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12"
+            class="search-icon" aria-hidden="true">
+          <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor" />
+          <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5" />
+        </svg>
+        {{search instant=settings.instant_search class='search search-full'}}
+      </div>
+    </div>
+    <img src="{{asset 'category_hero_bg_left.png'}}" alt="background">
+    <img src="{{asset 'category_hero_bg_right.png'}}" alt="background">
+  </section>
+
+  {{!-- Main Content --}}
+  <section class="category-page__content container section">
+    <h2 class="fade-in-up">{{category.name}}</h2>
+    {{#if category.description}}
+      <p class="fade-in-up">{{category.description}}</p>
+    {{/if}}
+    <div class="category-page__sections">
+      {{#each sections}}
+      <div class="category-page__section fade-in-up">
+        <div class="category-page__section-heading">
+          <h3>{{name}}</h3>
+          <a href="{{url}}">{{t 'show_all_articles'}} 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M4.11132 3.10911L3.96161 2.96505L4.11127 2.82094L5.37299 1.60594L5.51163 1.47243L5.65036 1.60585L11.8886 7.60585L12.0385 7.75L11.8886 7.89415L5.65036 13.8941L5.51163 14.0276L5.37299 13.8941L4.11127 12.6791L3.96161 12.5349L4.11132 12.3909L8.93421 7.75L4.11132 3.10911Z" fill="#29335C" stroke="#29335C" stroke-width="0.4"/>
+            </svg>
+          </a>
+        </div>
+        <div class="category-page__articles">
+          {{#each articles}}
+            <div class="category-page__article">
+              <div>
+                <a href="{{url}}"><h4>{{title}}</h4></a>
+                <div>{{body}}</div>
+              </div>
+              <a class="category-page__article-btn" href="{{url}}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 0.5L5.45 1.55L9.65 5.75H0.5V7.25H9.65L5.45 11.45L6.5 12.5L12.5 6.5L6.5 0.5Z" fill="#161A26"/>
+                </svg>
+              </a>
+            </div>
+          {{/each}}
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+
+</section>
+
+

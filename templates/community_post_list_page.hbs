@@ -1,0 +1,175 @@
+<section class="post-list-page">
+  <h1 class="visibility-hidden">{{ t 'community'}}</h1>
+
+  {{!-- Main Content --}}
+  <section class="posts section">
+    <div class="container">
+      <header class="page-header community-header">
+        <h1 class="fade-in-up">{{t 'all_posts'}}</h1>
+        <span class="dropdown fade-in-up">
+          <button class="dropdown-toggle" aria-haspopup="true">
+            <p class="title">
+              {{t 'all_posts'}}
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+            </svg>
+          </button>
+          <span class="dropdown-menu" role="menu">
+            {{#link 'topics' role='menuitemradio'}}
+              {{t 'show_topics'}}
+            {{/link}}
+            {{#link 'posts' role='menuitemradio' aria-checked='true'}}
+              {{t 'show_all_posts'}}
+            {{/link}}
+          </span>
+        </span>
+      </header>
+
+      <div class="topic-header fade-in-up">
+        <span class="topic-filters">
+          <span class="dropdown">
+            <button class="dropdown-toggle" aria-haspopup="true">
+              {{current_filter.label}}
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+              </svg>
+            </button>
+            <span class="dropdown-menu" role="menu">
+              {{#each filters}}
+                <a href="{{url}}" aria-checked="{{selected}}" role="menuitemradio">
+                  {{name}}
+                </a>
+              {{/each}}
+            </span>
+          </span>
+          <span class="dropdown">
+            <button class="dropdown-toggle" aria-haspopup="true">
+              {{current_sorter.label}}
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+              </svg>
+            </button>
+            <span class="dropdown-menu" role="menu">
+              {{#each sorters}}
+                <a href="{{url}}" aria-checked="{{selected}}" role="menuitemradio">
+                  {{name}}
+                </a>
+              {{/each}}
+            </span>
+          </span>
+        </span>
+        <span class="post-to-community fade-in-up">
+          {{link 'new_post' class='button button-primary'}}
+        </span>
+      </div>
+
+      <div id="main-content" class="posts-list striped-list">
+        {{#unless posts}}
+          <div class="no-posts-with-filter">
+            {{t 'no_posts_with_filter'}}
+          </div>
+        {{/unless}}
+        {{#each posts}}
+          <section class="posts-item fade-in-up" role="region" aria-labelledby="title-{{id}}">
+            <div class="striped-list-item {{#if featured}}post-featured{{/if}}">
+              <span class="striped-list-info">
+                <a href="{{url}}" id="title-{{id}}" class="striped-list-title">
+                  <h6>{{title}}</h6>
+                </a>
+                <span class="post-overview-item">
+                  {{#if pinned}}
+                    <span class="status-label status-label-pinned">{{t 'pinned'}}</span>
+                  {{/if}}
+
+                  {{#if featured}}
+                    <span class="status-label status-label-featured">{{t 'featured'}}</span>
+                  {{/if}}
+
+                  {{#is status 'none'}}
+                  {{else}}
+                    <span class="status-label-{{status_dasherized}} status-label striped-list-status">{{status_name}}</span>
+                  {{/is}}
+                </span>
+
+                <div class="meta-group">
+                  {{#link 'user_profile' class="meta-data" id=author.id}}{{author.name}}{{/link}}
+                  {{#if editor}}
+                    <span class="meta-data">{{date edited_at timeago=true}}</span>
+                    <span class="meta-data">{{t 'edited'}}</span>
+                  {{else}}
+                    <span class="meta-data">{{date created_at timeago=true}}</span>
+                  {{/if}}
+                </div>
+              </span>
+
+              <div class="post-overview-count striped-list-count">
+                <span class="striped-list-count-item">
+                  <span class="striped-list-number">{{vote_sum}}</span>
+                  {{t 'vote' count=vote_sum}}
+                </span>
+                <span class="striped-list-count-item">
+                  <span class="striped-list-number">{{comment_count}}</span>
+                  {{t 'comment' count=comment_count}}
+                </span>
+              </div>
+            </div>
+          </section>
+        {{/each}}
+      </div>
+
+      {{pagination}}
+    </div>
+    {{!-- Page Header  --}}
+
+  </section>
+
+  {{!-- Featured Posts --}}
+  {{#if featured_posts}}
+    <section class="community-featured-posts">
+      <div class="lines">
+        <div></div>
+      </div>
+      <div class="container section">
+        <h2 class="fade-in-up">{{t 'featured_posts'}}</h2>
+        <ul class="featured-posts">
+          {{#each featured_posts}}
+            <li class="featured-posts-item fade-in-up">
+              <div class="avatar post-avatar">
+                {{#if author.agent}}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="icon-agent" aria-label="{{t 'team_member' name=author.name}}">
+                    <path fill="currentColor" d="M6 0C2.7 0 0 2.7 0 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm2.3 7H3.7c-.3 0-.4-.3-.3-.5C3.9 7.6 4.9 7 6 7s2.1.6 2.6 1.5c.1.2 0 .5-.3.5z"/>
+                  </svg>
+                {{/if}}
+                <img src="{{author.avatar_url}}" alt="avatar" class="user-avatar"/>
+              </div>
+              <div class="post-meta">
+                <span title="{{author.name}}">
+                  {{#link 'user_profile' id=author.id}}
+                    {{author.name}}
+                  {{/link}}
+                </span>
+              </div>
+              <a href="{{url}}"><h6>{{title}}</h6></a>
+              <div>{{details}}</div>
+              <a class="featured-posts-btn" href="{{url}}">{{t 'see_more'}}</a>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+    </section>
+  {{/if}}
+
+  {{!-- Recent activity --}}
+  <section class="community-activity activity section">
+    <div class="container fade-in-up">
+      {{#if help_center.community_enabled}}
+        {{recent_activity scope='community'}}
+      {{/if}}
+    </div>
+    <div class="container fade-in-up">
+      {{link 'new_post' class='button button-primary'}}
+    </div>
+  </section>
+
+</section>
