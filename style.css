@@ -1402,15 +1402,10 @@ footer a:hover {
   max-width: 590px;
 }
 
-.hero > img:nth-of-type(1) {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.hero > img:nth-of-type(2) {
+.hero > img {
   position: absolute;
   right: 0;
-  bottom: 40px;
+  bottom: 0;
 }
 
 @media (max-width: 1279px) {
@@ -1437,7 +1432,7 @@ footer a:hover {
   .hero__content p {
     margin-bottom: 40px;
   }
-  .hero > img:nth-of-type(1), .hero > img:nth-of-type(2)  {
+  .hero > img  {
     width: 50%;
     height: auto;
   }
