@@ -70,7 +70,7 @@ a {
 }
 
 a:hover {
-  text-shadow: 0 0 1px black;
+  text-shadow: 0 0 1px black, 0 0 1px black;
   color: $hover_link_color;
 }
 
@@ -6474,7 +6474,7 @@ html[dir=rtl] .notification-left-aligned {
 }
 
 .button-primary:hover {
-  text-shadow: 0 0 1px black;
+  text-shadow: 0 0 1px black, 0 0 1px black;
   background-color: $background_primary_color;
   color: $headings_primary;
 }
@@ -6486,7 +6486,7 @@ html[dir=rtl] .notification-left-aligned {
 }
 
 .button-secondary:hover {
-  text-shadow: 0 0 1px black;
+  text-shadow: 0 0 1px black, 0 0 1px black;
   background-color: $background_primary_color;
   color: $headings_primary;
 }
