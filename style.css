@@ -1753,32 +1753,21 @@ footer a:hover {
 
 .introduction__item > div {
   border-radius: 50px;
-  padding: 20px;
+  padding: 22px;
   line-height: normal;
   font-size: 0;
-  background-color: $background_light_color;
+  background-color: $background_primary_color;
 }
 
 .introduction__item img {
-  max-width: 40px;
-  max-height: 40px;
+  max-width: 36px;
+  max-height: 36px;
 }
 
-.introduction__item a {
-  display: block;
-  margin: 20px 0;
-  color: $headings_primary;
+.introduction__item h5 {
+  margin: 20px 0 14px;
 }
 
-.introduction__item a:hover {
-  color: $hover_link_color;
-}
-
-.introduction__item p {
-  font-size: 18px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 @media (max-width: 1023px) {
   .introduction__item {
