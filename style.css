@@ -1896,7 +1896,14 @@ footer a:hover {
 /* Find Solution */
 
 .find-solution {
+  position: relative;
   background-color: $background_primary_color;
+}
+
+.find-solution > img {
+  position: absolute;
+  top: 50px;
+  right: 0;
 }
 
 .find-solution h2 {
@@ -1935,6 +1942,8 @@ footer a:hover {
 }
 
 .find-solution__head div {
+  font-size: 0;
+  margin-bottom: 18px;
   border-radius: 50px;
   padding: 10px;
   background-color: $background_secondary_color;
@@ -1943,11 +1952,6 @@ footer a:hover {
 .find-solution__head img {
   width: 20px;
   height: 20px;
-}
-
-.find-solution__item h4 {
-  transition: all .3s ease;
-  margin-bottom: 20px;
 }
 
 .find-solution__item p {
