@@ -2020,15 +2020,6 @@ footer a:hover {
   display: none;
 }
 
-.promoted-articles__item h6 {
-  display: inline;
-  transition: all .3s ease;
-}
-
-.promoted-articles__item a:hover h6 {
-  color: $hover_link_color;
-}
-
 .promoted-articles__item img {
   width: 30px;
   height: 30px;
@@ -2043,7 +2034,7 @@ footer a:hover {
 }
 
 .promoted-articles__item > div:last-of-type {
-  max-height: 75px;
+  max-height: 68px;
   overflow: hidden;
   margin-top: 15px;
 }
