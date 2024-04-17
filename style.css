@@ -1939,11 +1939,11 @@ footer a:hover {
   display: flex;
   align-items: center;
   gap: 18px;
+  margin-bottom: 18px;
 }
 
 .find-solution__head div {
   font-size: 0;
-  margin-bottom: 18px;
   border-radius: 50px;
   padding: 10px;
   background-color: $background_secondary_color;
