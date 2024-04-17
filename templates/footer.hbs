@@ -1,15 +1,44 @@
 <footer class="footer">
-  <div class="footer__top">
-    <div class="lines">
-      <div></div>
-    </div>
-    <div class="container section">
-      <h2 class="fade-in-up">{{settings.contact_us_heading}}</h2>
-      <p class="fade-in-up">{{settings.contact_us_text}}</p>
+  <section class="submit-request">
+    <div class="container">
+      <h2 class="fade-in-up">{{settings.footer_heading}}</h2>
+      <p class="fade-in-up">{{settings.footer_text}}</p>
       <div class="fade-in-up">
-        <a class="button button-primary" href="{{settings.contact_us_link}}">{{settings.contact_us_link_text}}</a>
+        <a class="button button-primary" href="{{settings.footer_link}}">{{settings.footer_link_text}}</a>
       </div>
     </div>
+  </section>
+  <div class="footer__top container">
+    <div>
+      <p>{{settings.footer_description}}</p>
+      
+    </div>
+    <ul class="footer__list">
+      <li>
+        <a href="{{settings.footer_list_item1_url}}">{{settings.footer_list_item1}}</a>
+      </li>
+      <li>
+        <a href="{{settings.footer_list_item2_url}}">{{settings.footer_list_item2}}</a>
+      </li>
+      <li>
+        <a href="{{settings.footer_list_item3_url}}">{{settings.footer_list_item3}}</a>
+      </li>
+      {{#if settings.show_footer_list_item4}}
+        <li>
+          <a href="{{settings.footer_list_item4_url}}">{{settings.footer_list_item4}}</a>
+        </li>
+      {{/if}}
+      {{#if settings.show_footer_list_item5}}
+        <li>
+          <a href="{{settings.footer_list_item5_url}}">{{settings.footer_list_item5}}</a>
+        </li>
+      {{/if}}
+      {{#if settings.show_footer_list_item6}}
+        <li>
+          <a href="{{settings.footer_list_item6_url}}">{{settings.footer_list_item6}}</a>
+        </li>
+      {{/if}}
+    </ul>
   </div>
   <div class="footer__bottom">
     <div class="container">

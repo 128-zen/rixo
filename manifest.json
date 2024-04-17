@@ -1,7 +1,7 @@
 {
   "name": "Rixo 128",
   "author": "128zen",
-  "version": "1.1.3",
+  "version": "1.1.5",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -35,6 +35,13 @@
           "description": "Choose background color for Quick Links and FAQ sections",
           "label": "Background Secondary Color",
           "value": "#FFF0E4"
+        },
+        {
+          "identifier": "background_tertiary_color",
+          "type": "color",
+          "description": "Choose background color for Footer",
+          "label": "Background Tertiary Color",
+          "value": "#111"
         },
         {
           "identifier": "headings_primary",
@@ -1062,31 +1069,143 @@
       "label": "Footer",
       "variables": [
         {
-          "identifier": "contact_us_heading",
+          "identifier": "footer_heading",
           "type": "text",
           "description": "Enter heading",
           "label": "Footer Heading",
           "value": "Can't find what you're looking for?"
         },
         {
-          "identifier": "contact_us_text",
+          "identifier": "footer_text",
           "type": "text",
-          "description": "Enter description",
-          "label": "Footer Description",
+          "description": "Enter subtitle",
+          "label": "Footer Subtitle",
           "value": "Our customer care team is here for you!"
         },
         {
-          "identifier": "contact_us_link_text",
+          "identifier": "footer_link_text",
           "type": "text",
           "description": "Enter text",
-          "label": "Button Text",
+          "label": "Footer Link Text",
           "value": "Submit A Request"
         },
         {
-          "identifier": "contact_us_link",
+          "identifier": "footer_link",
           "type": "text",
           "description": "Insert link",
-          "label": "Button Link",
+          "label": "Footer Link",
+          "value": "#"
+        },
+        {
+          "identifier": "footer_description",
+          "type": "text",
+          "description": "Enter description",
+          "label": "Footer Description",
+          "value": "Forgot your password? Learn how to reset your password from the sign in page or your account settings."
+        },
+        {
+          "identifier": "footer_list_item1",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Footer List Item 1",
+          "value": "Home"
+        },
+        {
+          "identifier": "footer_list_item1_url",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Footer List Item 1 URL",
+          "value": "#"
+        },
+        {
+          "identifier": "footer_list_item2",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Footer List Item 2",
+          "value": "What's new"
+        },
+        {
+          "identifier": "footer_list_item2_url",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Footer List Item 2 URL",
+          "value": "#"
+        },
+        {
+          "identifier": "footer_list_item3",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Footer List Item 3",
+          "value": "Documentation"
+        },
+        {
+          "identifier": "footer_list_item3_url",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Footer List Item 3 URL",
+          "value": "#"
+        },
+        {
+          "identifier": "show_footer_list_item4",
+          "type": "checkbox",
+          "description": "Show footer list item 4",
+          "label": "Toggle Footer List Item 4",
+          "value": true
+        },
+        {
+          "identifier": "footer_list_item4",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Footer List Item 4",
+          "value": "Blog"
+        },
+        {
+          "identifier": "footer_list_item4_url",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Footer List Item 4 URL",
+          "value": "#"
+        },
+        {
+          "identifier": "show_footer_list_item5",
+          "type": "checkbox",
+          "description": "Show footer list item 5",
+          "label": "Toggle Footer List Item 5",
+          "value": true
+        },
+        {
+          "identifier": "footer_list_item5",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Footer List Item 5",
+          "value": "Shop"
+        },
+        {
+          "identifier": "footer_list_item5_url",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Footer List Item 5 URL",
+          "value": "#"
+        },
+        {
+          "identifier": "show_footer_list_item6",
+          "type": "checkbox",
+          "description": "Show footer list item 6",
+          "label": "Toggle Footer List Item 6",
+          "value": true
+        },
+        {
+          "identifier": "footer_list_item6",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Footer List Item 6",
+          "value": "Contact"
+        },
+        {
+          "identifier": "footer_list_item6_url",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Footer List Item 6 URL",
           "value": "#"
         },
         {
