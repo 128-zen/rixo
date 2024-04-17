@@ -1,7 +1,7 @@
 {
   "name": "Rixo 128",
   "author": "128zen",
-  "version": "1.1.24",
+  "version": "1.1.25",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -569,6 +569,12 @@
           "value": "Easily create Documentation, Knowledge-base, FAQ, Forum and more"
         },
         {
+          "identifier": "find_solution_item1_img",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 1 Image"
+        },
+        {
           "identifier": "find_solution_item1_heading",
           "type": "text",
           "description": "Enter heading",
@@ -597,6 +603,12 @@
           "value": "#"
         },
         {
+          "identifier": "find_solution_item2_img",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 2 Image"
+        },
+        {
           "identifier": "find_solution_item2_heading",
           "type": "text",
           "description": "Enter heading",
@@ -623,6 +635,12 @@
           "description": "Insert link",
           "label": "Item 2 Link",
           "value": "#"
+        },
+        {
+          "identifier": "find_solution_item3_img",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 3 Image"
         },
         {
           "identifier": "find_solution_item3_heading",
