@@ -1848,10 +1848,19 @@ footer a:hover {
   gap: 15px;
   align-items: center;
   margin-bottom: 20px;
+  color: $body_primary;
 }
 
 .explore-topics__item li svg {
   flex: 0 0 auto;
+}
+
+.explore-topics__item li a {
+  color: $body_primary;
+}
+
+.explore-topics__item li a:hover {
+  color: $headings_primary;
 }
 
 .explore-topics__item li svg path {
