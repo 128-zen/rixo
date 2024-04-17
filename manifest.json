@@ -1,7 +1,7 @@
 {
   "name": "Rixo 128",
   "author": "128zen",
-  "version": "1.1.15",
+  "version": "1.1.16",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -419,7 +419,7 @@
           "type": "text",
           "description": "Enter section heading",
           "label": "Item 1 Heading",
-          "value": "Get Started"
+          "value": "Video tutorials"
         },
         {
           "identifier": "second_section_item1_link",
@@ -433,7 +433,7 @@
           "type": "text",
           "description": "Enter section subtitle",
           "label": "Item 1 Subtitle",
-          "value": "Video tutorials Find all the Pipedrive video tutorials listed on this Knowledge Base page."
+          "value": "Discover everything you need to know to start your journey"
         },
         {
           "identifier": "second_section_item2_img",
@@ -446,7 +446,7 @@
           "type": "text",
           "description": "Enter section heading",
           "label": "Item 2 Heading",
-          "value": "Get Started"
+          "value": "Campaigns"
         },
         {
           "identifier": "second_section_item2_link",
@@ -460,7 +460,7 @@
           "type": "text",
           "description": "Enter section subtitle",
           "label": "Item 2 Subtitle",
-          "value": "Video tutorials Find all the Pipedrive video tutorials listed on this Knowledge Base page."
+          "value": "Discover everything you need to know to start your journey"
         },
         {
           "identifier": "second_section_item3_img",
@@ -473,7 +473,7 @@
           "type": "text",
           "description": "Enter section heading",
           "label": "Item 3 Heading",
-          "value": "Get Started"
+          "value": "Account settings"
         },
         {
           "identifier": "second_section_item3_link",
@@ -487,14 +487,7 @@
           "type": "text",
           "description": "Enter section subtitle",
           "label": "Item 3 Subtitle",
-          "value": "Video tutorials Find all the Pipedrive video tutorials listed on this Knowledge Base page."
-        },
-        {
-          "identifier": "show_introduction_item4",
-          "type": "checkbox",
-          "description": "Show item",
-          "label": "Toggle Item 4",
-          "value": true
+          "value": "Discover everything you need to know to start your journey"
         },
         {
           "identifier": "second_section_item4_img",
@@ -507,7 +500,7 @@
           "type": "text",
           "description": "Enter section heading",
           "label": "Item 4 Heading",
-          "value": "Get Started"
+          "value": "Features"
         },
         {
           "identifier": "second_section_item4_link",
@@ -521,75 +514,7 @@
           "type": "text",
           "description": "Enter section subtitle",
           "label": "Item 4 Subtitle",
-          "value": "Video tutorials Find all the Pipedrive video tutorials listed on this Knowledge Base page."
-        },
-        {
-          "identifier": "show_introduction_item5",
-          "type": "checkbox",
-          "description": "Show item",
-          "label": "Toggle Item 5",
-          "value": true
-        },
-        {
-          "identifier": "second_section_item5_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 5 Image"
-        },
-        {
-          "identifier": "second_section_item5_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Item 5 Heading",
-          "value": "Get Started"
-        },
-        {
-          "identifier": "second_section_item5_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Item 5 Link",
-          "value": "#"
-        },
-        {
-          "identifier": "second_section_item5_subtitle",
-          "type": "text",
-          "description": "Enter section subtitle",
-          "label": "Item 5 Subtitle",
-          "value": "Video tutorials Find all the Pipedrive video tutorials listed on this Knowledge Base page."
-        },
-        {
-          "identifier": "show_introduction_item6",
-          "type": "checkbox",
-          "description": "Show item",
-          "label": "Toggle Item 6",
-          "value": true
-        },
-        {
-          "identifier": "second_section_item6_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 6 Image"
-        },
-        {
-          "identifier": "second_section_item6_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Item 6 Heading",
-          "value": "Get Started"
-        },
-        {
-          "identifier": "second_section_item6_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Item 6 Link",
-          "value": "#"
-        },
-        {
-          "identifier": "second_section_item6_subtitle",
-          "type": "text",
-          "description": "Enter section subtitle",
-          "label": "Item 6 Subtitle",
-          "value": "Video tutorials Find all the Pipedrive video tutorials listed on this Knowledge Base page."
+          "value": "Discover everything you need to know to start your journey"
         }
       ]
     },

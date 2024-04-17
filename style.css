@@ -1732,18 +1732,19 @@ footer a:hover {
 /* Find Solution */
 
 .introduction {
-  background-color: $background_primary_color;
+  background-color: $background_secondary_color;
+  padding-bottom: 120px
 }
 
 .introduction__items {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 30px;
 }
 
 .introduction__item {
-  width: calc(33.3% - 40px);
+  width: calc(25% - 22.5px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1753,7 +1754,6 @@ footer a:hover {
 .introduction__item > div {
   border-radius: 50px;
   padding: 20px;
-  border: 1px solid rgba(64, 73, 107, 0.12);
   line-height: normal;
   font-size: 0;
   background-color: $background_light_color;
