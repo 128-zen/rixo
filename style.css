@@ -70,7 +70,7 @@ a {
 }
 
 a:hover {
-  font-weight: 800;
+  text-shadow: 0 0 1px black;
   color: $hover_link_color;
 }
 
@@ -6474,7 +6474,7 @@ html[dir=rtl] .notification-left-aligned {
 }
 
 .button-primary:hover {
-  font-weight: 700;
+  text-shadow: 0 0 1px black;
   background-color: $background_primary_color;
   color: $headings_primary;
 }
@@ -6486,8 +6486,8 @@ html[dir=rtl] .notification-left-aligned {
 }
 
 .button-secondary:hover {
-  font-weight: 700;
-  background-color: $background_light_color;
+  text-shadow: 0 0 1px black;
+  background-color: $background_primary_color;
   color: $headings_primary;
 }
 
