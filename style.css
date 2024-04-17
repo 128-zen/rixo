@@ -1832,7 +1832,7 @@ footer a:hover {
   width: calc(33.3% - 20px);
   padding: 30px;
   border-radius: 8px;
-  background-color: $background2_color;
+  background-color: $background_secondary_color;
 }
 
 .explore-topics__item:nth-child(n+7) {
