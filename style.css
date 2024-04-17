@@ -1928,6 +1928,23 @@ footer a:hover {
   background-color: $background_primary_color;
 }
 
+.find-solution__head {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.find-solution__head div {
+  border-radius: 50px;
+  padding: 10px;
+  background-color: $background_secondary_color;
+}
+
+.find-solution__head img {
+  width: 20px;
+  height: 20px;
+}
+
 .find-solution__item h4 {
   transition: all .3s ease;
   margin-bottom: 20px;
