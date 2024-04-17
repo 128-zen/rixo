@@ -1,7 +1,7 @@
 {
   "name": "Rixo 128",
   "author": "128zen",
-  "version": "1.1.29",
+  "version": "1.1.30",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -579,21 +579,21 @@
           "type": "text",
           "description": "Enter heading",
           "label": "Item 1 Heading",
-          "value": "Сommunity forum"
+          "value": "FAQ"
         },
         {
           "identifier": "find_solution_item1_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 1 Text",
-          "value": "Here, you'll find comprehensive guides, tutorials, and references to help you navigate our products/services seamlessly."
+          "value": "Professionally cultivate one-to-one find customer service with robust ideas."
         },
         {
           "identifier": "find_solution_item1_link_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 1 Link Text",
-          "value": "Read More"
+          "value": "Learn More"
         },
         {
           "identifier": "find_solution_item1_link",
@@ -613,21 +613,21 @@
           "type": "text",
           "description": "Enter heading",
           "label": "Item 2 Heading",
-          "value": "Purchasing questions"
+          "value": "Guides"
         },
         {
           "identifier": "find_solution_item2_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 2 Text",
-          "value": "Here, you'll find comprehensive guides, tutorials, and references to help you navigate our products/services seamlessly."
+          "value": "Professionally cultivate one-to-one find customer service with robust ideas."
         },
         {
           "identifier": "find_solution_item2_link_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 2 Link Text",
-          "value": "Read More"
+          "value": "Learn More"
         },
         {
           "identifier": "find_solution_item2_link",
@@ -647,21 +647,21 @@
           "type": "text",
           "description": "Enter heading",
           "label": "Item 3 Heading",
-          "value": "Documentation"
+          "value": "Community"
         },
         {
           "identifier": "find_solution_item3_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 3 Text",
-          "value": "Here, you'll find comprehensive guides, tutorials, and references to help you navigate our products/services seamlessly."
+          "value": "Professionally cultivate one-to-one find customer service with robust ideas."
         },
         {
           "identifier": "find_solution_item3_link_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 3 Link Text",
-          "value": "Read More"
+          "value": "Learn More"
         },
         {
           "identifier": "find_solution_item3_link",
