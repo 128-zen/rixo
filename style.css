@@ -1382,8 +1382,7 @@ footer a:hover {
 }
 .hero .container {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: flex-start;
   padding-top: 257px;
   padding-bottom: 175px;
 }
@@ -1391,7 +1390,7 @@ footer a:hover {
 .hero__content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   max-width: 900px;
   width: 100%;
   z-index: 3;
@@ -1399,7 +1398,7 @@ footer a:hover {
 .hero__content p {
   font-size: 20px;
   margin-bottom: 60px;
-  max-width: 590px;
+  max-width: 645px;
 }
 
 .hero > img {
@@ -1449,7 +1448,7 @@ footer a:hover {
 }
 
 .hero .search input[type=search], .error-page .search input[type=search]{
-  border-radius: 50px;
+  border-radius: 8px;
   padding: 15px 150px 15px 50px;
   font-size: 15px;
   font-weight: 400;
@@ -1464,7 +1463,7 @@ footer a:hover {
   position: absolute;
   right: 0;
   padding: 8px 28px;
-  border-radius: 50px;
+  border-radius: 8px;
   top: 50%;
   transform: translate(-6px, -50%);
   font-size: 18px;
@@ -1495,23 +1494,23 @@ footer a:hover {
 } 
 .popular-keywords p {
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 .popular-keywords a {
-  letter-spacing: 0.15px;
-  font-size: 15px;
+  letter-spacing: 0.16px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 140%;
   padding: 4px 8px;
-  border-radius: 50px;
-  border: 1px solid $body_tertiary;
-  background-color: $background_light_color;
+  border-radius: 8px;
+  background-color: $background_secondary_color;
   color: $headings_primary;
 }
 
 .popular-keywords a:hover {
-  background-color: $body_tertiary;
-  color: $body_secondary;
+  text-shadow: 0 0 1px black, 0 0 1px black;
+  background-color: $secondary_button_color;
+  color: $headings_primary;
 }
 
 .page-header {
