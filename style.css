@@ -1884,6 +1884,7 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .explore-topics__items {
+    margin-top: 40px;
     gap: 20px;
   }
   .explore-topics__item {
@@ -1894,24 +1895,22 @@ footer a:hover {
 
 /* Find Solution */
 
-.quick-links {
-  background-color: $background_secondary_color;
+.find-solution {
+  background-color: $background_primary_color;
 }
 
-.quick-links h2 {
+.find-solution h2 {
   margin-bottom: 20px;
   text-align: center;
-  color: $body_secondary;
 }
 
-.quick-links .container > p {
+.find-solution .container > p {
   text-align: center;
   max-width: 550px;
   margin: 0 auto;
-  color: $body_secondary;
 }
 
-.quick-links__items {
+.find-solution__items {
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -1919,28 +1918,28 @@ footer a:hover {
   margin-top: 60px;
 }
 
-.quick-links__item {
+.find-solution__item {
   width: calc(33.3% - 20px);
-  padding: 40px 24px;
-  border-radius: 20px;
+  padding: 30px;
+  border-radius: 8px;
   text-align: left;
   align-items: center;
-  border: 1px solid $body_tertiary;
-  background-color: $background_secondary_color;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 4px 22px 0px rgba(0, 0, 0, 0.04);
+  background-color: $background_primary_color;
 }
 
-.quick-links__item h4 {
+.find-solution__item h4 {
   transition: all .3s ease;
   color: $body_secondary;
   margin-bottom: 20px;
 }
 
-.quick-links__item p {
+.find-solution__item p {
   color: $body_secondary;
   margin-bottom: 40px;
 }
 
-.quick-links__item a {
+.find-solution__item a {
   font-weight: 700;
   display: flex;
   gap: 8px;
@@ -1948,40 +1947,40 @@ footer a:hover {
   align-items: center;
 }
 
-.quick-links__item a:first-of-type {
+.find-solution__item a:first-of-type {
   display: block;
 }
 
-.quick-links__item a{
+.find-solution__item a{
   color: $body_secondary;
 }
 
-.quick-links__item a:hover, .quick-links__item a:hover h4 {
+.find-solution__item a:hover, .find-solution__item a:hover h4 {
   color: $hover_link_color;
 }
 
-.quick-links__item a:hover svg {
+.find-solution__item a:hover svg {
   transform: rotate(45deg);
 }
 
-.quick-links__item a:hover path{
+.find-solution__item a:hover path{
   fill: $hover_link_color;
 }
 
 
 @media (max-width: 1023px) {
-  .quick-links__items {
+  .find-solution__items {
     margin-top: 40px;
   }
-  .quick-links__item {
+  .find-solution__item {
     width: calc(50% - 15px);
   }
 }
 @media (max-width: 767px) {
-  .quick-links__items {
+  .find-solution__items {
     gap: 20px;
   }
-  .quick-links__item {
+  .find-solution__item {
     width: 100%;
     max-width: 470px;
   }

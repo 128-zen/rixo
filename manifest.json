@@ -1,7 +1,7 @@
 {
   "name": "Rixo 128",
   "author": "128zen",
-  "version": "1.1.21",
+  "version": "1.1.22",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -552,101 +552,101 @@
       ]
     },
     {
-      "label": "Homepage Quick Links Section",
+      "label": "Homepage Find Solution Section",
       "variables": [
         {
-          "identifier": "third_section_heading",
+          "identifier": "find_solution_heading",
           "type": "text",
           "description": "Enter section heading",
           "label": "Section Heading",
-          "value": "Quick links"
+          "value": "Find Solution"
         },
         {
-          "identifier": "third_section_subtitle",
+          "identifier": "find_solution_subtitle",
           "type": "text",
           "description": "Enter section subtitle",
           "label": "Section Subtitle",
           "value": "Easily create Documentation, Knowledge-base, FAQ, Forum and more"
         },
         {
-          "identifier": "third_section_item1_heading",
+          "identifier": "find_solution_item1_heading",
           "type": "text",
           "description": "Enter heading",
           "label": "Item 1 Heading",
           "value": "Сommunity forum"
         },
         {
-          "identifier": "third_section_item1_text",
+          "identifier": "find_solution_item1_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 1 Text",
           "value": "Here, you'll find comprehensive guides, tutorials, and references to help you navigate our products/services seamlessly."
         },
         {
-          "identifier": "third_section_item1_link_text",
+          "identifier": "find_solution_item1_link_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 1 Link Text",
           "value": "Read More"
         },
         {
-          "identifier": "third_section_item1_link",
+          "identifier": "find_solution_item1_link",
           "type": "text",
           "description": "Insert link",
           "label": "Item 1 Link",
           "value": "#"
         },
         {
-          "identifier": "third_section_item2_heading",
+          "identifier": "find_solution_item2_heading",
           "type": "text",
           "description": "Enter heading",
           "label": "Item 2 Heading",
           "value": "Purchasing questions"
         },
         {
-          "identifier": "third_section_item2_text",
+          "identifier": "find_solution_item2_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 2 Text",
           "value": "Here, you'll find comprehensive guides, tutorials, and references to help you navigate our products/services seamlessly."
         },
         {
-          "identifier": "third_section_item2_link_text",
+          "identifier": "find_solution_item2_link_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 2 Link Text",
           "value": "Read More"
         },
         {
-          "identifier": "third_section_item2_link",
+          "identifier": "find_solution_item2_link",
           "type": "text",
           "description": "Insert link",
           "label": "Item 2 Link",
           "value": "#"
         },
         {
-          "identifier": "third_section_item3_heading",
+          "identifier": "find_solution_item3_heading",
           "type": "text",
           "description": "Enter heading",
           "label": "Item 3 Heading",
           "value": "Documentation"
         },
         {
-          "identifier": "third_section_item3_text",
+          "identifier": "find_solution_item3_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 3 Text",
           "value": "Here, you'll find comprehensive guides, tutorials, and references to help you navigate our products/services seamlessly."
         },
         {
-          "identifier": "third_section_item3_link_text",
+          "identifier": "find_solution_item3_link_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 3 Link Text",
           "value": "Read More"
         },
         {
-          "identifier": "third_section_item3_link",
+          "identifier": "find_solution_item3_link",
           "type": "text",
           "description": "Insert link",
           "label": "Item 3 Link",
