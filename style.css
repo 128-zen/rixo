@@ -1076,11 +1076,19 @@ ul {
   background-color: $background_secondary_color;
 }
 
+.submit-request img {
+  position: absolute;
+  top: -56px;
+  left: -55px;
+  z-index: 4;
+}
+
 .submit-request h2 {
   margin-bottom: 20px;
 }
 
 .submit-request p {
+  font-size: 18px;
   margin-bottom: 40px;
 }
 
