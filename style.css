@@ -2325,7 +2325,7 @@ footer a:hover {
 /***** Category pages *****/
 .category-page .hero .container {
   padding-top: 182px;
-  padding-bottom: 100px;
+  padding-bottom: 0;
   position: relative;
   z-index: 5;
   flex-direction: column;
@@ -2335,13 +2335,12 @@ footer a:hover {
 .category-page .hero > img:nth-of-type(1) {
   position: absolute;
   left: 0;
-  top: 66px;
+  bottom: 0;
 }
 .category-page .hero > img:nth-of-type(2) {
   position: absolute;
   right: 0;
-  top: 234px;
-  bottom: auto;
+  bottom: 135px;
 }
 .category-page .hero h1 {
   max-width: 900px;
@@ -2508,7 +2507,7 @@ footer a:hover {
 @media(max-width: 767px) {
   .category-page .hero .container {
     padding-top: 162px;
-    padding-bottom: 80px;
+    padding-bottom: 0;
   }
   .category-page .hero p {
     margin-bottom: 40px;
