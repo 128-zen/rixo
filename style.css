@@ -2353,6 +2353,10 @@ footer a:hover {
   max-width: 645px;
 }
 
+.category-page__content {
+  padding-bottom: 360px;
+}
+
 .category-page__content>h2 {
   text-align: center;
 }
