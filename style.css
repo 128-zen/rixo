@@ -911,6 +911,7 @@ ul {
 
 .nav-wrapper-mobile .menu-list-mobile-items a {
   display: block;
+  font-size: 18px;
   padding: 8px 15px;
   width: 100%;
   height: 100%;
@@ -1191,6 +1192,9 @@ footer a:hover {
     align-items: center;
     gap: 40px;
     padding-top: 80px;
+  }
+  .footer__top p {
+    text-align: center;
   }
   .footer__list {
     align-self: center;
