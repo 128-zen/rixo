@@ -1770,12 +1770,18 @@ footer a:hover {
 
 
 @media (max-width: 1023px) {
+  .introduction__items {
+    gap: 60px;
+  }
   .introduction__item {
-    width: calc(50% - 37.5px);
+    width: calc(50% - 60px);
   }
 }
 
 @media (max-width: 767px) {
+  .introduction__items {
+    gap: 20px;
+  }
   .introduction__item {
     max-width: 370px;
     width: 100%;
