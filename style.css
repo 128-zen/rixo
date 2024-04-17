@@ -1123,11 +1123,6 @@ ul {
   margin-bottom: 30px;
 }
 
-.footer__top > div:first-of-type img {
-  max-width: 240px;
-  height: auto;
-}
-
 .footer__social {
   display: flex;
   align-items: center;
@@ -1147,11 +1142,11 @@ ul {
 }
 
 .footer__social a:hover path {
-  fill: $hover_link_color;
+  fill: $secondary_button_color;
 }
 
 footer a:hover {
-  color: $hover_link_color;
+  color: $secondary_button_color;
 }
 
 .footer__list {
