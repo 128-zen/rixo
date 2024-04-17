@@ -1477,9 +1477,9 @@ footer a:hover {
   color: $body_secondary;
 }
 .hero .search input[type=submit]:hover, .error-page .search input[type=submit]:hover {
-  background-color: $body_tertiary;
-  border: 1px solid $body_tertiary;
-  color: $body_secondary;
+  background-color: $background_primary_color;
+  border: 1px solid $primary_button_color;
+  color: $headings_primary;
 }
 .hero .search-icon, .error-page .search-icon {
   left: 20px;
