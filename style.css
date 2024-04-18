@@ -674,9 +674,9 @@ ul {
 
 /***** Header *****/
 .header {
-  background-color: transparent;
   position: relative;
   z-index: 99;
+  background-color: $background_primary_color;
 }
 
 .header .container {
@@ -1375,16 +1375,15 @@ footer a:hover {
 
 /***** Hero component *****/
 .hero {
-  margin-top: -82px;
   overflow: hidden;
-  background-color: $background_light_color;
+  background-color: $background_primary_color;
   position: relative;
 }
 .hero .container {
   display: flex;
   justify-content: flex-start;
-  padding-top: 257px;
-  padding-bottom: 175px;
+  padding-top: 120px;
+  padding-bottom: 200px;
 }
 
 .hero__content {
