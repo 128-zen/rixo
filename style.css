@@ -1578,7 +1578,9 @@ footer a:hover {
   transform: rotate(90deg);
 }
 
-
+.page-header .dropdown-toggle:hover .title, .page-header .dropdown-toggle[aria-expanded='true'] .title {
+  text-shadow: 0 0 1px #111, 0 0 1px #111;
+}
 
 .sub-nav {
   display: flex;
@@ -3726,7 +3728,6 @@ footer a:hover {
 }
 .community-header .title {
   margin-bottom: 0;
-  font-weight: 600;
   font-size: 18px;
 }
 
