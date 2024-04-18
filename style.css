@@ -2796,11 +2796,6 @@ footer a:hover {
   }
 }
 
-.article footer {
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgba(64, 73, 107, 0.12);
-}
-
 .article-info {
   max-width: 100%;
 }
@@ -3063,7 +3058,9 @@ footer a:hover {
   font-weight: 600;
   font-size: 16px;
 }
-
+.article-votes a:hover {
+  color: $headings_primary;
+}
 .article-vote {
   padding: 8px 20px;
   line-height: 1;
@@ -3282,8 +3279,8 @@ footer a:hover {
 }
 
 .share a svg {
-  height: 29px;
-  width: 29px;
+  height: 24px;
+  width: 24px;
   display: block;
 }
 
