@@ -2659,7 +2659,16 @@ footer a:hover {
   background-color: $background_primary_color;
 }
 
+@media (max-width: 1279px) {
+  .section-page {
+    padding-bottom: 340px;
+  }
+}
+
 @media (max-width: 1023px) {
+  .section-page {
+    padding-bottom: 320px;
+  }
   .section-page__content {
     padding-left: 30px;
   }
@@ -2675,7 +2684,8 @@ footer a:hover {
 
 @media (max-width: 767px) {
   .section-page {
-    padding-top: 60px
+    padding-top: 60px;
+    padding-bottom: 300px;
   }
   .section-page>.container {
     flex-direction: column-reverse;
@@ -2701,7 +2711,7 @@ footer a:hover {
   .section-page__articles {
     gap: 20px;
   }
-  .section-page__article li {
+  .section-page__articles li {
     width: 100%;
   }
 }
