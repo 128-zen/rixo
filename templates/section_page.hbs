@@ -31,15 +31,15 @@
           {{#each section.articles}}
             <li class="fade-in-up">
               <div class="section-page__article">
+                <h6><a href="{{url}}">{{title}}</a></h6>
+                <div>{{body}}</div>
                 <div>
-                  <a href="{{url}}"><h6>{{title}}</h6></a>
-                  <div>{{body}}</div>
-                </div>
-                <a class="section-page__article-btn" href="{{url}}">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 0.5L5.45 1.55L9.65 5.75H0.5V7.25H9.65L5.45 11.45L6.5 12.5L12.5 6.5L6.5 0.5Z" fill="#161A26"/>
+                  <a href="{{url}}"></a>
+                  {{t 'see_more'}}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10" fill="none">
+                    <path d="M1.5 5H10.5M10.5 5L6.5625 1M10.5 5L6.5625 9" stroke="#222B27" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
-                </a>
+                </div>
               </div>
             </li>
           {{/each}}
