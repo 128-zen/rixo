@@ -422,7 +422,7 @@ ul {
 .subscriptions-subscribe button, .requests-table-toolbar .organization-subscribe button, .community-follow button, .article-subscribe button, .section-subscribe button, .split-button button, .article-subscribe button, .community-follow button, .comment-form-controls input[type=submit] {
   background-color: transparent;
   border-radius: 50px;
-  color: $body_secondary;
+  color: $headings_primary;
   cursor: pointer;
   display: inline-block;
   font-size: 18px;
@@ -433,8 +433,8 @@ ul {
   text-align: center;
   transition: all .3s ease;
   padding: 14px 34px;
-  background-color: $primary_button_color;
-  border: 1px solid $primary_button_color;
+  background-color: $secondary_button_color;
+  border: 1px solid $secondary_button_color;
   user-select: none;
   white-space: nowrap;
   -webkit-touch-callout: none;
@@ -451,9 +451,9 @@ ul {
 
 
 .article-subscribe button:hover, .community-follow button:hover, .subscriptions-subscribe button:hover, .section-subscribe button:hover, .comment-form-controls input[type=submit]:hover, .split-button button:hover {
-  background-color: $body_tertiary;
-  border: 1px solid $body_tertiary;
-  color: $body_secondary;
+  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  background-color: $background_primary_color;
+  color: $headings_primary;
 }
 
 .button-large[disabled], input[type=submit][disabled] {
