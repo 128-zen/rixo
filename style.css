@@ -1566,6 +1566,20 @@ footer a:hover {
   vertical-align: baseline;
 }
 
+.page-header .dropdown-toggle {
+  gap: 15px;
+}
+
+.page-header .dropdown-toggle path {
+  stroke: $headings_primary;
+}
+
+.page-header .dropdown-toggle:hover svg, .page-header .dropdown-toggle[aria-expanded='true'] svg {
+  transform: rotate(90deg);
+}
+
+
+
 .sub-nav {
   display: flex;
   flex-direction: column;
