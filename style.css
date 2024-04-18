@@ -1051,8 +1051,8 @@ ul {
   position: relative;
 }
 .avatar img {
-  height: 64px;
-  width: 64px;
+  height: 50px;
+  width: 50px;
 }
 .avatar .icon-agent {
   color: $brand_color;
@@ -3748,10 +3748,9 @@ footer a:hover {
   gap: 30px;
 }
 .featured-posts-item {
-  border-radius: 20px;
+  border-radius: 8px;
   padding: 30px;
-  border: 1px solid rgba(64, 73, 107, 0.12);
-  background: $background_primary_color;
+  background: $background_secondary_color;
   width: calc(33.3% - 20px);
 }
 .featured-posts-item a {
@@ -3759,20 +3758,17 @@ footer a:hover {
   width: fit-content;
   color: $headings_primary;
 }
-.featured-posts-item a:hover {
-  color: $hover_link_color;
-}
 .featured-posts-btn {
   text-transform: capitalize;
   font-weight: 600;
 }
-.featured-posts-item div:last-of-type {
-  max-height: 78px;
+.featured-posts-item-body {
+  max-height: 67px;
   overflow: hidden;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
-  margin: 10px 0 30px;
+  margin: 20px 0 30px;
   color: $body_primary;
 }
 .featured-posts-item .icon-lock {
@@ -3816,6 +3812,7 @@ footer a:hover {
 .activity {
   position: relative;
   overflow: hidden;
+  padding-bottom: 360px;
   background-color: $background_primary_color;
 }
 .activity .container {
@@ -3832,7 +3829,22 @@ footer a:hover {
   margin-top: 50px;
 }
 
+@media (max-width: 1279px) {
+  .activity {
+    padding-bottom: 340px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .activity {
+    padding-bottom: 320px;
+  }
+}
+
 @media (max-width: 767px) {
+  .activity {
+    padding-bottom: 300px;
+  }
   .topics {
     padding-top: 60px;
   }

@@ -153,11 +153,9 @@
             <div class="featured-posts-btn">
               <a href="{{url}}"></a>
               {{t 'see_more'}}
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10" fill="none">
-                  <path d="M1.5 5H10.5M10.5 5L6.5625 1M10.5 5L6.5625 9" stroke="#222B27" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10" fill="none">
+                <path d="M1.5 5H10.5M10.5 5L6.5625 1M10.5 5L6.5625 9" stroke="#222B27" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
             </div>
           </li>
         {{/each}}
@@ -166,7 +164,7 @@
   {{/if}}
 
   {{!-- Recent activity --}}
-  <section class="community-activity activity">
+  <section class="community-activity activity section">
     <div class="container fade-in-up">
       {{#if help_center.community_enabled}}
         {{recent_activity scope='community'}}
