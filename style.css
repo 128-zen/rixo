@@ -2369,7 +2369,7 @@ footer a:hover {
 .category-page__sections {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 120px;
   justify-content: center;
   margin-top: 60px;
 }
