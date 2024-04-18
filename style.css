@@ -2516,10 +2516,11 @@ footer a:hover {
 
 .nav {
   width: 27%;
-  padding-right: 30px;
+  padding: 20px;
   position: sticky;
   top: 94px;
   align-self: start;
+  background-color: $background_secondary_color;
 }
 
 .nav .search-container {
@@ -2538,7 +2539,7 @@ footer a:hover {
 .nav input[type=search]{
   padding: 14px 20px 14px 50px;
   border: 1px solid rgba(213, 218, 222, 0.8);
-  border-radius: 50px;
+  border-radius: 8px;
 }
 
 .nav input[type=search]::placeholder {
@@ -2620,8 +2621,7 @@ footer a:hover {
 
 .section-page__content {
   width: 73%;
-  border-left: 1px solid rgba(213, 218, 222, 0.80);
-  padding-left: 60px;
+  padding-left: 80px;
 }
 
 .section-page__content>p {
