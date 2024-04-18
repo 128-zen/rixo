@@ -3180,7 +3180,6 @@ footer a:hover {
 .related-articles li a {
   width: calc(100% - 15px);
   line-height: 140%;
-  text-decoration: underline;
   color: $body_primary;
 }
 .recent-articles li a:hover,

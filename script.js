@@ -149,6 +149,15 @@
     `;
   }
 
+  //changing the icons next to the titles of Related and Recently Viewed Articles on the Article Page 
+  const articleRelatives = document.querySelectorAll('.article-relatives li')
+  articleRelatives.forEach(item =>{
+    const svgString = '<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none"><path d="M13.3906 5.85938C12.6368 5.85938 12.0234 5.24605 12.0234 4.49219V0H5.03125C3.8466 0 2.88281 0.963789 2.88281 2.14844V17.8516C2.88281 19.0362 3.8466 20 5.03125 20H15.9688C17.1534 20 18.1172 19.0362 18.1172 17.8516V5.85938H13.3906ZM6.08594 14.0625H8.92656C9.25016 14.0625 9.5125 14.3248 9.5125 14.6484C9.5125 14.972 9.25016 15.2344 8.92656 15.2344H6.08594C5.76234 15.2344 5.5 14.972 5.5 14.6484C5.5 14.3248 5.76234 14.0625 6.08594 14.0625ZM5.5 11.5234C5.5 11.1998 5.76234 10.9375 6.08594 10.9375H14.6797C15.0033 10.9375 15.2656 11.1998 15.2656 11.5234C15.2656 11.847 15.0033 12.1094 14.6797 12.1094H6.08594C5.76234 12.1094 5.5 11.847 5.5 11.5234ZM14.6797 7.8125C15.0033 7.8125 15.2656 8.07484 15.2656 8.39844C15.2656 8.72203 15.0033 8.98438 14.6797 8.98438H6.08594C5.76234 8.98438 5.5 8.72203 5.5 8.39844C5.5 8.07484 5.76234 7.8125 6.08594 7.8125H14.6797Z" fill="#111111"/><path d="M13.1953 4.49216C13.1953 4.59986 13.2829 4.68747 13.3906 4.68747H17.856C17.7488 4.48958 17.6109 4.30782 17.4453 4.15107L13.6788 0.587707C13.5326 0.449426 13.3698 0.334075 13.1954 0.242981V4.49216H13.1953Z" fill="#111111"/></svg>';
+    const parser = new DOMParser();
+    let svgElement = parser.parseFromString(svgString, 'image/svg+xml').querySelector('svg');
+    item.insertBefore(svgElement, item.firstChild);
+  })
+
   //Adding target="_blank" for social media sharing and replacing the Twitter icon
   const shareLinks = document.querySelectorAll('.share a')
   shareLinks.forEach(item => {
