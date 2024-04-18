@@ -421,14 +421,13 @@ ul {
 /***** Buttons *****/
 .subscriptions-subscribe button, .requests-table-toolbar .organization-subscribe button, .community-follow button, .article-subscribe button, .section-subscribe button, .split-button button, .article-subscribe button, .community-follow button, .comment-form-controls input[type=submit] {
   background-color: transparent;
-  border-radius: 50px;
+  border-radius: 8px;
   color: $headings_primary;
   cursor: pointer;
   display: inline-block;
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: 0.63px;
-  font-weight: 600;
   margin: 0;
   text-align: center;
   transition: all .3s ease;
@@ -2661,9 +2660,6 @@ footer a:hover {
 }
 
 @media (max-width: 1023px) {
-  .nav {
-    padding-right: 20px;
-  }
   .section-page__content {
     padding-left: 30px;
   }
@@ -2690,7 +2686,6 @@ footer a:hover {
     position: static;
     max-width: none;
     border: none;
-    padding-right: 0;
   }
   .nav .search-container {
     margin-bottom: 30px;
@@ -2706,7 +2701,7 @@ footer a:hover {
   .section-page__articles {
     gap: 20px;
   }
-  .section-page__article {
+  .section-page__article li {
     width: 100%;
   }
 }
