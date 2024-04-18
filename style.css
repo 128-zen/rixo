@@ -3288,7 +3288,7 @@ footer a:hover {
   fill: $headings_primary;
 }
 .share a:hover path {
-  fill: $hover_link_color;
+  fill: $background_secondary_color;
 }
 
 .share a svg {
