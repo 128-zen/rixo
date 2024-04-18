@@ -2323,7 +2323,6 @@ footer a:hover {
 
 /***** Category pages *****/
 .category-page .hero .container {
-  padding-top: 182px;
   padding-bottom: 0;
   position: relative;
   z-index: 5;
@@ -2384,13 +2383,6 @@ footer a:hover {
 }
 
 .category-page__section-heading a {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-weight: 600;
-  color: $headings_primary;
-  min-width: 90px;
-  padding-top: 5px;
   text-transform: capitalize; 
 }
 
