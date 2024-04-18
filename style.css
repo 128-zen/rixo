@@ -3936,15 +3936,17 @@ footer a:hover {
   color: $headings_primary;
 }
 .striped-list-count {
-  color: $headings_primary;
+  display: flex;
+  justify-content: space-between;
+  color: $body_primary;
   font-size: 13px;
   justify-content: flex-start;
   text-transform: capitalize;
 }
-.striped-list-count-item::after {
-  content: "·";
-  display: inline-block;
-  padding: 0 5px;
+.striped-list-count-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 .striped-list-count-item:last-child::after {
   display: none;
@@ -4007,12 +4009,12 @@ footer a:hover {
 /* Styles labels used in posts, articles and requests */
 .status-label {
   background-color: $background_secondary_color;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 600;
+  border-radius: 8px;
+  color: #111;
+  font-size: 14px;
+  font-weight: 400;
   margin-right: 2px;
-  padding: 3px 10px;
+  padding: 5px 10px;
   vertical-align: middle;
   white-space: nowrap;
   display: inline-block;
