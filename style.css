@@ -2048,8 +2048,7 @@ footer a:hover {
   width: calc(33.3% - 20px);
   padding: 30px;
   border-radius: 20px;
-  border: 1px solid rgba(64, 73, 107, 0.12);
-  background-color: $background_light_color;
+  background-color: $background_secondary_color;
 }
 
 .promoted-articles__item:nth-child(n+7) {
