@@ -2077,7 +2077,16 @@ footer a:hover {
   margin-top: 15px;
 }
 
+@media (max-width: 1279px) {
+  .promoted-articles {
+    padding-bottom: 340px;
+  }
+}
+
 @media (max-width: 1023px) {
+  .promoted-articles {
+    padding-bottom: 320px;
+  }
   .promoted-articles__head {
     margin-bottom: 40px;
   }
@@ -2086,6 +2095,9 @@ footer a:hover {
   }
 }
 @media (max-width: 767px) {
+  .promoted-articles {
+    padding-bottom: 300px;
+  }
   .promoted-articles__head {
     flex-direction: column;
     gap: 30px;
