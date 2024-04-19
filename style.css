@@ -2079,7 +2079,7 @@ footer a:hover {
     margin-bottom: 40px;
   }
   .promoted-articles__item {
-    width: calc(50% - 30px);
+    width: calc(50% - 15px);
   }
 }
 @media (max-width: 767px) {
