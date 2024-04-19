@@ -5530,6 +5530,7 @@ footer a:hover {
   font-size: 13px;
 }
 .profile-section-sorter .dropdown-toggle {
+  margin-bottom: 10px;
   width: 100%;
 }
 .profile-section-sorter .dropdown-toggle::after {
