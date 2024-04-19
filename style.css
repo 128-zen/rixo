@@ -2165,6 +2165,7 @@ footer a:hover {
 
 @media(max-width: 767px) {
   .submit-request-page, .new-post-page {
+    padding-top: 60px;
     padding-bottom: 300px;
   }
   .submit-request-page .container, .new-post-page .container {
