@@ -2177,7 +2177,7 @@ footer a:hover {
 .error-page {
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 120px;
+  padding-bottom: 360px;
   background-color: $background_primary_color;
   flex-grow: 1;
 }
@@ -2212,12 +2212,12 @@ footer a:hover {
 
 @media (max-width: 1023px) {
   .error-page {
-    padding-bottom: 80px;
+    padding-bottom: 320px;
   }
 }
 @media (max-width: 767px) {
   .error-page {
-    padding-bottom: 60px;
+    padding-bottom: 300px;
   }
   .error-page h1 {
     font-size: 90px;
@@ -4518,6 +4518,7 @@ footer a:hover {
 .collapsible-nav-list {
   display: flex;
   flex-direction: column;
+  font-size: 16px;
 }
 @media (min-width: 768px) {
   .collapsible-nav-list {
@@ -4754,7 +4755,7 @@ footer a:hover {
   width: 100%;
 }
 .requests {
-  margin-bottom: 120px;
+  margin-bottom: 360px;
 }
 .requests-table-toolbar {
   display: flex;
@@ -4767,17 +4768,17 @@ footer a:hover {
 }
 @media (max-width: 1279px) {
   .requests {
-    margin-bottom: 100px;
+    margin-bottom: 340px;
   }
 }
 @media (max-width: 1023px) {
   .requests {
-    margin-bottom: 80px;
+    margin-bottom: 320px;
   }
 }
 @media (max-width: 767px) {
   .requests {
-    margin-bottom: 60px;
+    margin-bottom: 300px;
   }
 }
 @media (min-width: 768px) {
