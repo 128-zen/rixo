@@ -1114,6 +1114,9 @@ ul {
   .submit-request .container {
     padding: 40px;
   }
+  .submit-request img {
+    display: none;
+  }
 }
 
 .footer {
