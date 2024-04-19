@@ -3790,11 +3790,11 @@ footer a:hover {
 
 /* Community topics grid */
 .topics {
-  padding-top: 80px;
+  padding-bottom: 120px;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: $background_primary_color;
+  background-color: $background_secondary_color;
 }
 .topics h1 {
   text-align: left;
@@ -3829,11 +3829,17 @@ footer a:hover {
   .activity {
     padding-bottom: 340px;
   }
+  .topics {
+    padding-bottom: 100px;
+  }
 }
 
 @media (max-width: 1023px) {
   .activity {
     padding-bottom: 320px;
+  }
+  .topics {
+    padding-bottom: 80px;
   }
 }
 
@@ -3842,7 +3848,7 @@ footer a:hover {
     padding-bottom: 300px;
   }
   .topics {
-    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
