@@ -646,20 +646,20 @@ ul {
 .form footer input {
   display: block;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 120%; /* 21.6px */
   letter-spacing: 0.63px;
   padding: 14px 34px;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 8px;
   border: 1px solid $primary_button_color;
   color: $body_secondary;
   background-color: $primary_button_color;
 }
 .form footer input:hover {
-  color: $body_secondary;
-  background-color: $body_tertiary;
-  border: 1px solid $body_tertiary;
+  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  background-color: $background_primary_color;
+  color: $headings_primary;
 }
 
 .form footer a {
@@ -2117,7 +2117,7 @@ footer a:hover {
 
 /***** Submit a request page *****/
 .submit-request-page, .new-post-page {
-  padding: 80px 0 120px;
+  padding: 80px 0 360px;
   position: relative;
   overflow: hidden;
 }
@@ -2153,19 +2153,19 @@ footer a:hover {
 
 @media(max-width: 1279px) {
   .submit-request-page, .new-post-page {
-    padding-bottom: 100px;
+    padding-bottom: 340px;
   }
 }
 
 @media(max-width: 1023px) {
   .submit-request-page, .new-post-page {
-    padding-bottom: 80px;
+    padding-bottom: 320px;
   }
 }
 
 @media(max-width: 767px) {
   .submit-request-page, .new-post-page {
-    padding-bottom: 60px;
+    padding-bottom: 300px;
   }
   .submit-request-page .container, .new-post-page .container {
     gap: 30px;
