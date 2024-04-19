@@ -5011,12 +5011,13 @@ footer a:hover {
   border-radius: 2px;
   border: 1px solid #ddd;
   color: $headings_primary;
-  background-color: $background_light_color;
+  background-color: $background_primary_color;
   text-align: inherit;
   padding: 8px 25px;
   width: 100%;
 }
 .request-main .comment-show-container:hover {
+  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
   color: $hover_link_color;
 }
 .request-main .comment-show-container.hidden {
