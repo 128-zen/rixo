@@ -3855,6 +3855,7 @@ footer a:hover {
 /* Community topic page */
 .topic-page {
   padding-top: 80px;
+  padding-bottom: 360px;
 }
 .topic-header {
   font-size: 13px;
@@ -3986,6 +3987,9 @@ footer a:hover {
   .post-list-page .posts {
     padding-bottom: 100px;
   }
+  .topic-page {
+    padding-bottom: 340px;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -3995,10 +3999,14 @@ footer a:hover {
   .posts-item {
     width: calc(50% - 15px);
   }
+  .topic-page {
+    padding-bottom: 320px;
+  }
 }
 @media (max-width: 767px) {
   .topic-page {
     padding-top: 60px;
+    padding-bottom: 300px;
   }
   .post-list-page .posts {
     padding-bottom: 60px;
