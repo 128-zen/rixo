@@ -2773,7 +2773,7 @@ footer a:hover {
   flex-direction: column;
   align-items: start;
   border-radius: 8px;
-  background: background_primary_color;
+  background: $background_primary_color;
 }
 
 .nav__articles li {
