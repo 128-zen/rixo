@@ -2767,8 +2767,26 @@ footer a:hover {
   display: flex;
 }
 
-.section-id {
-  display: none;
+.nav__articles ul {
+  padding: 20px;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 8px;
+  background: background_primary_color;
+}
+
+.nav__articles li {
+  margin-bottom: 15px;
+}
+
+.nav__articles li:last-child {
+  margin-bottom: 0;
+}
+
+.nav__articles .current-article {
+  color: $hover_link_color;
+  font-weight: 600;
 }
 
 .article-container {
