@@ -2793,6 +2793,10 @@ footer a:hover {
   font-weight: 600;
 }
 
+.nav__articles .current-article:hover {
+  text-shadow: none;
+}
+
 .article-container {
   width: 73%;
   display: flex;
