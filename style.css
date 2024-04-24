@@ -2872,9 +2872,6 @@ footer a:hover {
 }
 
 .article-meta {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
   margin-top: 3px;
 }
 
