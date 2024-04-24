@@ -1,7 +1,7 @@
 {
   "name": "Rixo 128",
   "author": "128zen",
-  "version": "1.1.97",
+  "version": "1.1.98",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -1189,7 +1189,7 @@
           "type": "text",
           "description": "Enter text",
           "label": "Footer right text",
-          "value": "128zen"
+          "value": "128ZEN"
         },
         {
           "identifier": "show_social_icon1",
