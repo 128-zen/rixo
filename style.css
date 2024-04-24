@@ -5942,7 +5942,7 @@ footer a:hover {
   color: $hover_link_color;
 }
 
-.search-results-sidebar .sidenav-item.current:hover span {
+.search-results-sidebar .sidenav-item.current:hover, .search-results-sidebar .sidenav-item:hover span:last-of-type {
   text-shadow: none;
 }
 
