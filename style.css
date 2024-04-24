@@ -5941,6 +5941,11 @@ footer a:hover {
   font-weight: 600;
   color: $hover_link_color;
 }
+
+.search-results-sidebar .sidenav-item.current:hover span {
+  text-shadow: none;
+}
+
 .search-results-sidebar .sidenav-subitem {
   unicode-bidi: embed;
 }
