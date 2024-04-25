@@ -1109,6 +1109,9 @@ ul {
   .footer__top {
     padding-top: 80px;
   }
+  .submit-request img {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .submit-request .container {
