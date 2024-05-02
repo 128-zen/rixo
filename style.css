@@ -70,7 +70,7 @@ a {
 }
 
 a:hover {
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   color: $hover_link_color;
 }
 
@@ -451,7 +451,7 @@ ul {
 
 
 .article-subscribe button:hover, .community-follow button:hover, .subscriptions-subscribe button:hover, .section-subscribe button:hover, .split-button button:hover {
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $background_primary_color;
   color: $headings_primary;
 }
@@ -464,7 +464,7 @@ ul {
 
 .comment-form-controls input[type=submit]:hover {
   border: 1px solid $primary_button_color;
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $background_primary_color;
   color: $headings_primary;
 }
@@ -658,7 +658,7 @@ ul {
   background-color: $primary_button_color;
 }
 .form footer input:hover {
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $background_primary_color;
   color: $headings_primary;
 }
@@ -1491,7 +1491,7 @@ footer a:hover {
   color: $body_secondary;
 }
 .hero .search input[type=submit]:hover, .error-page .search input[type=submit]:hover {
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $background_primary_color;
   border: 1px solid $primary_button_color;
   color: $headings_primary;
@@ -1523,7 +1523,7 @@ footer a:hover {
 }
 
 .popular-keywords a:hover {
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $secondary_button_color;
   color: $headings_primary;
 }
@@ -1586,7 +1586,7 @@ footer a:hover {
 }
 
 .page-header .dropdown-toggle:hover .title, .page-header .dropdown-toggle[aria-expanded='true'] .title {
-  text-shadow: 0 0 1px #111, 0 0 1px #111;
+  text-shadow: 0 0 0 #111, 0 0 0 #111;
 }
 
 .sub-nav {
@@ -2491,7 +2491,7 @@ footer a:hover {
 }
 
 .category-page__article > div:last-of-type:hover, .section-page__article > div:last-of-type:hover, .featured-posts-btn:hover {
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
 }
 
 .category-page__article > div:last-of-type:hover svg, .section-page__article > div:last-of-type:hover svg, .featured-posts-btn:hover svg {
@@ -3929,7 +3929,7 @@ footer a:hover {
 }
 
 .topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded=true], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded=true], .profile-section-sorter .dropdown-toggle:hover, .profile-section-sorter .dropdown-toggle[aria-expanded=true] {
-  text-shadow: 0 0 1px #111, 0 0 1px #111;
+  text-shadow: 0 0 0 #111, 0 0 0 #111;
 }
 
 @media (min-width: 768px) {
@@ -5053,7 +5053,7 @@ footer a:hover {
   width: 100%;
 }
 .request-main .comment-show-container:hover {
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   color: $hover_link_color;
 }
 .request-main .comment-show-container.hidden {
@@ -5948,7 +5948,7 @@ footer a:hover {
 }
 
 .search-results-sidebar .sidenav-item:hover span:first-of-type {
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
 }
 
 .search-results-sidebar .sidenav-item.current:hover span, .search-results-sidebar .sidenav-item:hover {
@@ -6539,7 +6539,7 @@ html[dir=rtl] .notification-left-aligned {
 }
 
 .button-primary:hover {
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $background_primary_color;
   color: $headings_primary;
 }
@@ -6551,7 +6551,7 @@ html[dir=rtl] .notification-left-aligned {
 }
 
 .button-secondary:hover {
-  text-shadow: 0 0 1px $headings_primary, 0 0 1px $headings_primary;
+  text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $background_primary_color;
   color: $headings_primary;
 }
