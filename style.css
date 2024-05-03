@@ -1432,14 +1432,14 @@ footer a:hover {
 }
 @media (max-width: 1023px) {
   .hero .container {
-    padding-top: 182px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 @media (max-width: 767px) {
   .hero .container {
-    padding-top: 162px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 320px;
   }
   .hero__content {
     max-width: 595px;
@@ -1450,7 +1450,7 @@ footer a:hover {
     margin-bottom: 40px;
   }
   .hero > img  {
-    width: 50%;
+    width: 80%;
     height: auto;
   }
 }
