@@ -1759,7 +1759,7 @@ footer a:hover {
 
 /* Color background image */
 .bg-color-one {
-  fill: $background_primary_color;
+  fill: $bg_svg_color1;
 }
 
 .bg-color-two {
