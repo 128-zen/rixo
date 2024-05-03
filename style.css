@@ -4005,6 +4005,10 @@ footer a:hover {
   display: block;
   margin-right: 5px;
 }
+.post-overview-item {
+  display: inline-block;
+  margin-top: 5px;
+}
 .striped-list .meta-group {
   margin: 10px 0;
 }
