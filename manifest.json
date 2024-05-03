@@ -1,7 +1,7 @@
 {
   "name": "Rixo 128",
   "author": "128zen",
-  "version": "1.1.118",
+  "version": "1.1.119",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -70,6 +70,20 @@
           "description": "Choose the primary color for the hover state of the links",
           "label": "Hover Link Primary Color",
           "value": "#111"
+        },
+        {
+          "identifier": "bg_svg_color2",
+          "type": "color",
+          "description": "Choose the color for backgroung image",
+          "label": "Background Image Color 3",
+          "value": "#FEF0E0"
+        },
+        {
+          "identifier": "bg_svg_color3",
+          "type": "color",
+          "description": "Choose the color for backgroung image",
+          "label": "Background Image Color 3",
+          "value": "#FFF6EC"
         }
       ]
     },

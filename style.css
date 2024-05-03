@@ -1757,6 +1757,20 @@ footer a:hover {
   }
 }
 
+/* Color background image */
+.bg-color-one {
+  fill: $background_primary_color;
+}
+
+.bg-color-two {
+  fill: $bg_svg_color2;
+}
+
+.bg-color-three {
+  fill: $bg_svg_color3;
+}
+
+
 /* Introduction */
 
 .introduction {
