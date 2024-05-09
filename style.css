@@ -1386,12 +1386,14 @@ footer a:hover {
   color: #111;
   pointer-events: none;
 }
+
+.search-icon path {
+  fill: $body_primary;
+}
+
 [dir=rtl] .search-icon {
   left: auto;
   right: 15px;
-}
-.search-icon circle, .search-icon path {
-  stroke: #0A2540;
 }
 
 /***** Hero component *****/
@@ -3253,7 +3255,7 @@ footer a:hover {
 
 .sidenav-title {
   padding: 8px 10px;
-  background-color: $background_primary_color;
+  background-color: $containers_background_color;
   border-radius: 8px;
   color: $headings_primary;
 }
@@ -4131,7 +4133,7 @@ footer a:hover {
 .status-label {
   background-color: $background_secondary_color;
   border-radius: 8px;
-  color: #111;
+  color: $headings_primary;
   font-size: 14px;
   font-weight: 400;
   margin-right: 2px;
@@ -6037,7 +6039,7 @@ footer a:hover {
 }
 .search-results-sidebar .collapsible-sidebar {
   margin-bottom: 30px;
-  width: 220px;
+  width: auto;
 }
 .search-results-sidebar .collapsible-sidebar:last-child {
   margin-bottom: 0;
