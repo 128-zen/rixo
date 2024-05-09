@@ -451,6 +451,7 @@ ul {
 
 
 .article-subscribe button:hover, .community-follow button:hover, .subscriptions-subscribe button:hover, .section-subscribe button:hover, .split-button button:hover {
+  opacity: 1;
   text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $background_primary_color;
   color: $headings_primary;
@@ -1522,6 +1523,7 @@ footer a:hover {
 }
 
 .popular-keywords a:hover {
+  opacity: 1;
   text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $secondary_button_color;
   color: $headings_primary;
