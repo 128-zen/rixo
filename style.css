@@ -1162,6 +1162,7 @@ ul {
 }
 
 footer a:hover {
+  opacity: 1;
   color: $secondary_button_color;
 }
 
@@ -6575,6 +6576,7 @@ html[dir=rtl] .notification-left-aligned {
 }
 
 .button-primary:hover {
+  opacity: 1;
   text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $background_primary_color;
   color: $headings_primary;
@@ -6587,6 +6589,7 @@ html[dir=rtl] .notification-left-aligned {
 }
 
 .button-secondary:hover {
+  opacity: 1;
   text-shadow: 0 0 0 $headings_primary, 0 0 0 $headings_primary;
   background-color: $background_primary_color;
   color: $headings_primary;
