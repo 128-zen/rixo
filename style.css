@@ -6609,13 +6609,3 @@ html[dir=rtl] .notification-left-aligned {
   color: $headings_primary;
 }
 
-
-
-/* follow button on section page */
-reach-portal div {
-  z-index: 1000;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 120%; /* 21.6px */
-  letter-spacing: 0.63px;
-}
