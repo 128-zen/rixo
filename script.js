@@ -16,12 +16,17 @@
 
   //displaying Category List on the Section and Article Pages
   const url = window.location.href;
-  const parts = url.split(".");
-  const firstWord = parts[0].replace('https://', '');
+
+  function getDomainFromUrl(url) {
+    const parsedUrl = new URL(url);
+    return parsedUrl.hostname;
+  }
+
+  const domain = getDomainFromUrl(url);
 
   let categoriesAndSections = [];
-  const categoriesUrl = `https://${firstWord}.zendesk.com/api/v2/help_center/categories.json`;
-  const sectionsUrl = `https://${firstWord}.zendesk.com/api/v2/help_center/sections.json`;
+  const categoriesUrl = `https://${domain}/api/v2/help_center/categories.json`;
+  const sectionsUrl = `https://${domain}/api/v2/help_center/sections.json`;
   
   const contentContainer = document.querySelector('.nav__list');
   
@@ -106,10 +111,10 @@
 
     keywordsValue.forEach(function(keyword) {
       const safeKeyword = encodeURIComponent(keyword.trim());
-      const safeFirstWord = encodeURIComponent(firstWord.trim()); 
+      const safeDomain = encodeURIComponent(domain.trim()); 
       let linkText = document.createTextNode(keyword.trim());
       let link = document.createElement("a");
-      link.setAttribute("href", `https://${safeFirstWord}.zendesk.com/hc/en-us/search?query=${safeKeyword}`);
+      link.setAttribute("href", `https://${safeDomain}/hc/en-us/search?query=${safeKeyword}`);
       link.appendChild(linkText);
       keywordsElement.appendChild(link);
     });
