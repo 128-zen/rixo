@@ -1413,7 +1413,7 @@ footer a:hover {
   width: 100%;
   z-index: 3;
 }
-.hero__content p {
+.hero__content > p {
   font-size: 20px;
   margin-top: 40px;
   max-width: 645px;
@@ -1844,7 +1844,7 @@ footer a:hover {
   }
 }
 
-/* Explore Topics */
+/* Categories */
 .categories {
   position: relative;
   overflow: hidden;
@@ -1893,7 +1893,7 @@ footer a:hover {
   width: fit-content;
 }
 
-.categories__item:nth-child(n+7) {
+.categories__section:nth-child(n+7) {
   display: none;
 }
 
