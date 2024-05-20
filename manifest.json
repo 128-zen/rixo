@@ -1,7 +1,7 @@
 {
   "name": "Rixo 128",
   "author": "128zen",
-  "version": "1.1.136",
+  "version": "1.1.137",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -420,7 +420,7 @@
       ]
     },
     {
-      "label": "Homepage Introduction Section",
+      "label": "Homepage Quick Links Section",
       "variables": [
         {
           "identifier": "second_section_item1_img",
@@ -535,6 +535,13 @@
     {
       "label": "Homepage Find Solution Section",
       "variables": [
+        {
+          "identifier": "show_find_solution_section",
+          "type": "checkbox",
+          "description": "Show section",
+          "label": "Toggle Section",
+          "value": true
+        },
         {
           "identifier": "find_solution_heading",
           "type": "text",

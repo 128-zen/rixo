@@ -1416,7 +1416,7 @@ footer a:hover {
 }
 .hero__content p {
   font-size: 20px;
-  margin-bottom: 60px;
+  margin-top: 40px;
   max-width: 645px;
 }
 
@@ -1450,9 +1450,6 @@ footer a:hover {
     width: 100%;
     margin: 0 auto;
   }
-  .hero__content p {
-    margin-bottom: 40px;
-  }
   .hero > svg  {
     width: 80%;
     height: auto;
@@ -1463,6 +1460,7 @@ footer a:hover {
   position: relative;
   max-width: 570px;
   width: 100%;
+  margin-top: 60px;
 }
 
 .hero .search, .error-page .search {
@@ -1607,6 +1605,9 @@ footer a:hover {
 }
 
 @media (max-width: 767px) {
+  .hero-inner {
+    margin-top: 40px;
+  }
   .page-header h1, .page-header h2 {
     margin-bottom: 30px;
   }
@@ -1774,21 +1775,21 @@ footer a:hover {
 }
 
 
-/* Introduction */
+/* quick-links */
 
-.introduction {
+.quick-links {
   background-color: $background_secondary_color;
   padding-bottom: 120px
 }
 
-.introduction__items {
+.quick-links__items {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.introduction__item {
+.quick-links__item {
   width: calc(25% - 22.5px);
   display: flex;
   flex-direction: column;
@@ -1796,7 +1797,7 @@ footer a:hover {
   text-align: center;
 }
 
-.introduction__item > div {
+.quick-links__item > div {
   border-radius: 50px;
   padding: 22px;
   line-height: normal;
@@ -1804,41 +1805,41 @@ footer a:hover {
   background-color: $background_tertiary_color;
 }
 
-.introduction__item img {
+.quick-links__item img {
   max-width: 36px;
   max-height: 36px;
 }
 
-.introduction__item h5 {
+.quick-links__item h5 {
   margin: 20px 0 14px;
 }
 
 @media (max-width: 1279px) {
-  .introduction {
+  .quick-links {
     padding-bottom: 100px
   }
 }
 
 @media (max-width: 1023px) {
-  .introduction {
+  .quick-links {
     padding-bottom: 80px
   }
-  .introduction__items {
+  .quick-links__items {
     gap: 60px;
   }
-  .introduction__item {
+  .quick-links__item {
     width: calc(50% - 60px);
   }
 }
 
 @media (max-width: 767px) {
-  .introduction {
+  .quick-links {
     padding-bottom: 60px
   }
-  .introduction__items {
+  .quick-links__items {
     gap: 20px;
   }
-  .introduction__item {
+  .quick-links__item {
     max-width: 370px;
     width: 100%;
   }
@@ -2421,7 +2422,7 @@ footer a:hover {
 .category-page .hero p {
   text-align: center;
   font-size: 20px;
-  margin-bottom: 60px;
+  margin-top: 40px;
   max-width: 645px;
 }
 
@@ -2561,9 +2562,6 @@ footer a:hover {
   .category-page .hero .container {
     padding-top: 80px;
     padding-bottom: 0;
-  }
-  .category-page .hero p {
-    margin-bottom: 40px;
   }
   .category-page__content {
     padding-bottom: 300px;
