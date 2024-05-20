@@ -1,7 +1,7 @@
 {
   "name": "Rixo 128",
   "author": "128zen",
-  "version": "1.1.135",
+  "version": "1.1.136",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -16,13 +16,6 @@
           "value": "#686B71"
         },
         {
-          "identifier": "body_secondary",
-          "type": "color",
-          "description": "Choose body secondary color",
-          "label": "Body Secondary Color",
-          "value": "#FFF"
-        },
-        {
           "identifier": "background_primary_color",
           "type": "color",
           "description": "Choose background color for body. It is used on the inner pages",
@@ -32,22 +25,15 @@
         {
           "identifier": "background_secondary_color",
           "type": "color",
-          "description": "Choose background color for Quick Links and FAQ sections",
+          "description": "Choose background secondary color",
           "label": "Background Secondary Color",
           "value": "#FFF0E4"
         },
         {
           "identifier": "background_tertiary_color",
           "type": "color",
-          "description": "Choose background color for Footer",
+          "description": "Choose background color for Quick Links Section Icons and Find Solutions section boxes",
           "label": "Background Tertiary Color",
-          "value": "#111"
-        },
-        {
-          "identifier": "containers_background_color",
-          "type": "color",
-          "description": "Choose background color for containers",
-          "label": "Containers Background Color",
           "value": "#fff"
         },
         {
@@ -74,28 +60,28 @@
         {
           "identifier": "hover_link_color",
           "type": "color",
-          "description": "Choose the primary color for the hover state of the links",
-          "label": "Hover Link Primary Color",
+          "description": "Choose the color for the hover state of the links",
+          "label": "Hover Link Color",
           "value": "#111"
         },
         {
           "identifier": "bg_svg_color1",
           "type": "color",
-          "description": "Choose the color for backgroung image",
+          "description": "Choose the color 1 for background elements on the banner and footer",
           "label": "Background Image Color 1",
           "value": "#FFF"
         },
         {
           "identifier": "bg_svg_color2",
           "type": "color",
-          "description": "Choose the color for backgroung image",
+          "description": "Choose the color 2 for background elements on the banner and footer",
           "label": "Background Image Color 2",
           "value": "#FEF0E0"
         },
         {
           "identifier": "bg_svg_color3",
           "type": "color",
-          "description": "Choose the color for backgroung image",
+          "description": "Choose the color 3 for background elements on the banner and footer",
           "label": "Background Image Color 3",
           "value": "#FFF6EC"
         }
@@ -831,6 +817,20 @@
     {
       "label": "Footer",
       "variables": [
+        {
+          "identifier": "body_secondary",
+          "type": "color",
+          "description": "Choose footer text color",
+          "label": "Footer Text Color",
+          "value": "#FFF"
+        },
+        {
+          "identifier": "background_footer_color",
+          "type": "color",
+          "description": "Choose background color for Footer",
+          "label": "Footer Background Color",
+          "value": "#111"
+        },
         {
           "identifier": "footer_heading",
           "type": "text",
