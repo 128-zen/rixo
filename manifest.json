@@ -32,7 +32,7 @@
         {
           "identifier": "background_tertiary_color",
           "type": "color",
-          "description": "Choose background color for Quick Links Section Icons and Find Solutions section boxes",
+          "description": "Choose background color for Quick Links Icons and Find Solutions boxes",
           "label": "Background Tertiary Color",
           "value": "#fff"
         },
