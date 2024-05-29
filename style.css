@@ -2065,7 +2065,6 @@ footer a:hover {
 
 /***** Promoted articles *****/
 .promoted-articles {
-  padding-bottom: 360px;
   background-color: $background_primary_color;
 }
 
@@ -2112,16 +2111,7 @@ footer a:hover {
   margin-top: 15px;
 }
 
-@media (max-width: 1279px) {
-  .promoted-articles {
-    padding-bottom: 340px;
-  }
-}
-
 @media (max-width: 1023px) {
-  .promoted-articles {
-    padding-bottom: 320px;
-  }
   .promoted-articles__head {
     margin-bottom: 40px;
   }
@@ -2130,9 +2120,6 @@ footer a:hover {
   }
 }
 @media (max-width: 767px) {
-  .promoted-articles {
-    padding-bottom: 300px;
-  }
   .promoted-articles__head {
     flex-direction: column;
     gap: 30px;
@@ -6555,21 +6542,21 @@ html[dir=rtl] .notification-left-aligned {
 /***** Last Section on the homepage *****/
 
 .last-section {
-  padding-bottom: 320px;
+  padding-bottom: 360px;
 }
 @media (max-width: 1279px) {
   .last-section {
-    padding-bottom: 300px;
+    padding-bottom: 340px;
   }
 }
 @media (max-width: 1023px) {
   .last-section {
-    padding-bottom: 280px;
+    padding-bottom: 320px;
   }
 }
 @media (max-width: 767px) {
   .last-section {
-    padding-bottom: 260px;
+    padding-bottom: 300px;
   }
 }
 
