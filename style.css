@@ -2422,7 +2422,7 @@ footer a:hover {
 .category-page .hero p {
   text-align: center;
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   max-width: 645px;
 }
 
@@ -6550,6 +6550,27 @@ html[dir=rtl] .notification-left-aligned {
   border: 1px solid rgba(213, 218, 222, 0.8);
   border-radius: 12px;
   background-color: $background_light_color;
+}
+
+/***** Last Section on the homepage *****/
+
+.last-section {
+  padding-bottom: 320px;
+}
+@media (max-width: 1279px) {
+  .last-section {
+    padding-bottom: 300px;
+  }
+}
+@media (max-width: 1023px) {
+  .last-section {
+    padding-bottom: 280px;
+  }
+}
+@media (max-width: 767px) {
+  .last-section {
+    padding-bottom: 260px;
+  }
 }
 
 /***** BUTTON *****/

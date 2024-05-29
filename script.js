@@ -177,6 +177,13 @@
     `
   }
 
+  if (document.querySelector('.hero')) {
+    const sections = document.querySelectorAll('section');
+    if (sections.length > 0) {
+        sections[sections.length - 1].classList.add('last-section');
+    }
+  }
+
   //Page animation (fade-in-up)
   function animateElements() {
     const animatedElements = document.querySelectorAll('.fade-in-up');
